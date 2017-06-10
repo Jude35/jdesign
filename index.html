@@ -1,9 +1,29 @@
 ---
 layout: default
 ---
-    <h1>Hi my name is Jude. Hire me!</h1>
-    <p>This is a paragraph.</p> 
-    <p>This is another paragraph.</p>  
-    <p>Yet another paragraph.</p> 
-    <p>How about one more paragraph.</p>
+<h1>Planets of the Universe</h1>
+<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+<h2>Types of Planets</h2>
+
+
+    <ol>
+        {% for planet in site.data.planet-types %} 
+        <li>
+            {{planet.title}}
+            {{planet.content | markdownify}}
+        </li>
+        {% endfor %}
+    </ol>
+
+
+<h2>Recently Discovered</h2>
+<ul>
+    {% for news in site.categories.recently-discovered %}
+    <li>
+        <a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a>
+        <p>{{news.meta}}</p>
+    </li>
+    {% endfor %}
+</ul>
 

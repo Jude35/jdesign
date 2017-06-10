@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-article
 title: My sixth post
 meta: 1914 translation by H. Rackham
 source: www.example.com

@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-article
 title: My first post
 meta: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 source: loremipsum.com

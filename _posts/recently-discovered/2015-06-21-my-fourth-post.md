@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-article
 title: My fourth post
 meta: Ut enim ad minim veniam, quis nostrud exercitation ullamco
 source: www.example.com

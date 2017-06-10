@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-article
 title: My fifth post
 meta: Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
 source: www.example.com
